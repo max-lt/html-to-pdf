@@ -1,0 +1,9 @@
+# Ignore everything
+**
+
+# Except for these files
+!DockerFile
+!package.json
+!package-lock.json
+!src/*.js
+!test-phantom.js

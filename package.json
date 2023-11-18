@@ -1,0 +1,21 @@
+{
+  "name": "html-to-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-phantom.js",
+  "engines": {
+    "node": "=0.14.0"
+  },
+  "scripts": {
+    "start": "OPENSSL_CONF=/dev/null node src/main.js",
+    "test": "OPENSSL_CONF=/dev/null node test-phantom.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "html-pdf": "^3.0.1",
+    "phantomjs": "^2.1.7"
+  }
+}
