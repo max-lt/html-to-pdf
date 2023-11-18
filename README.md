@@ -9,6 +9,13 @@ docker build -t html-to-pdf .
 docker run -p 3000:3000 --name html-to-pdf html-to-pdf
 ```
 
+### Node
+
+```bash
+npm install
+npm start
+```
+
 ## Usage
 
 ```bash
